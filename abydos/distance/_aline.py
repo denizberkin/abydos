@@ -22,7 +22,7 @@ ALINE alignment, similarity, and distance
 from copy import deepcopy
 from typing import Any, Callable, Dict, List, Tuple, Union, cast
 
-from numpy import float_, inf, zeros
+from numpy import float16, inf, zeros
 
 from ._distance import _Distance
 
